@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fotooboikld.ru</title>
+    <link rel="stylesheet" href="./styles.css/main.css" />
+    <link rel="stylesheet" href="./styles.css/media.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header" class="header">
+      <h1 class="header-title">
+        Андрей Иванов <br />
+        Front Developer
+      </h1>
+      <div class="header-info">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <div class="header-arrow">
+        <a href="#portfolio" class="header-arrow">
+          <img src="./images/header/chevron-down.svg" alt="Arrow" />
+        </a>
+      </div>
+    </header>
+    <main>
+      <section class="portfolio" id="portfolio">
+        <div class="container">
+          <h2 class="portfolio-header">Портфолио</h2>
+
+          <div class="portfolio-cards-wrapper">
+            <div class="card">
+              <a href="mi.html" class="card-link">
+                <img class="card-img" src="./images/portfolio/s3.jpg" alt="" />
+                <h3 class="card-title">Обо мне.</h3>
+                <p></p>
+              </a>
+            </div>
+
+            <div class="card">
+              <a href="hard.html" class="card-link">
+                <img class="card-img" src="./images/portfolio/s2.jpg" alt="" />
+                <h3 class="card-title">Hard skills.</h3>
+                <p></p>
+              </a>
+            </div>
+
+            <div class="card">
+              <a href="soft.html" class="card-link">
+                <img class="card-img" src="./images/portfolio/s1.jpg" alt="" />
+                <h3 class="card-title">Soft skills.</h3>
+                <p></p>
+              </a>
+            </div>
+
+            <div class="card">
+              <a href="slider.html" class="card-link">
+                <img class="card-img" src="./images/portfolio/s4.jpg" alt="" />
+                <h3 class="card-title">Проекты.</h3>
+                <p></p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-row">
+          <div class="footer-copyright footer-col">
+            <div class="footer-copyright-name">© Front-DeD</div>
+            <p>Разработка вашего проекта</p>
+          </div>
+
+          <div class="footer-icons footer-col">
+            <p>Мои социальные сети:</p>
+            <div class="footer-icons-row">
+              <a href="https://telegram.org/">
+                <img src="./images/icons/telegram.png" alt="telegram" />
+              </a>
+
+              <a href="https://www.viber.com/">
+                <img src="./images/icons/whatsapp.png" alt="whatsapp" />
+              </a>
+
+              <a href="https://vk.com/id325337532">
+                <img src="./images/icons/vk.png" alt="vk" />
+              </a>
+            </div>
+          </div>
+
+          <form action="telegram.php" method="POST">
+            <legend></legend>
+            <h2>Связаться со мной</h2>
+            <div class="form-group">
+              <label for="name">Ваше имя:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                name="name"
+                placeholder="Введите имя"
+              />
+            </div>
+            <div class="form-group">
+              <label for="phone">Ваш телефон:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="phone"
+                name="phone"
+                placeholder="Введите телефон"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Ваш email:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="email"
+                name="email"
+                placeholder="Введите email"
+              />
+            </div>
+            <div class="form-group">
+              <label for="msg"> Сообщение:</label>
+              <textarea
+                name="msg"
+                id="msg"
+                placeholder="введите сообщение"
+                cols="20"
+                rows="5"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn">Отправить</button>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Обо мне</title>
+
+    <link rel="stylesheet" href="./styles.css/mi.css" />
+  </head>
+  <body style="height: 100vh">
+    <div class="page">
+      <div class="slider">
+        <!-- fade css -->
+        <div class="myslide fade">
+          <div class="txt">
+            <h1>СЕМЬЯ</h1>
+            <p>
+              Он ввел меня в дом пира,<br />
+              и знамя его надо мною - любовь.
+            </p>
+          </div>
+          <img src="./images/mi/img1.JPG" style="width: 100%; height: 100%" />
+        </div>
+
+        <div class="myslide fade">
+          <div class="txt">
+            <h1>БОГ</h1>
+            <p>Да, я верующий человек<br />Обожаю моего Отца Небесного</p>
+          </div>
+          <img src="./images/mi/img2.jpg" style="width: 100%; height: 100%" />
+        </div>
+
+        <div class="myslide fade">
+          <div class="txt">
+            <h1>Работа</h1>
+            <p>Front-end Developer<br />Люблю эту работу</p>
+          </div>
+          <img src="./images/mi/img3.jpg" style="width: 100%; height: 100%" />
+        </div>
+
+        <div class="myslide fade">
+          <div class="txt">
+            <h1>Путешествия</h1>
+            <p>Активный отдых<br />Это моё</p>
+          </div>
+          <img src="./images/mi/img4.jpg" style="width: 100%; height: 100%" />
+        </div>
+
+        <div class="myslide fade">
+          <div class="txt">
+            <h1>учеба</h1>
+            <p>Люблю учиться<br />Да это мне нравится</p>
+          </div>
+          <img src="./images/mi/5.jpg" style="width: 100%; height: 100%" />
+        </div>
+        <!-- /fade css -->
+
+        <!-- onclick js -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="dotsbox" style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+        <!-- /onclick js -->
+      </div>
+      <div class="footer">
+        <a href="index.html" class="project-btn-back">← ВЕРНУТЬСЯ НА ГЛАВНУЮ</a>
+      </div>
+    </div>
+    <script src="./js/mi.js"></script>
+  </body>
+</html>
